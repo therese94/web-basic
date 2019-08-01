@@ -1,0 +1,9 @@
+*{ margin: 0; padding: 0; font-family: "맑은고딕", sans-serif; color: red; }
+h1{ color: blue; }
+.pink{ color: pink; }
+.yellow{ color: yellow; }
+.bold{ font-weight: bold; }
+#green{ color: green; }
+#purple{ color: purple; }
+#orange{ color: brown !important; color: orange; }
+h3{ color: yellow; }

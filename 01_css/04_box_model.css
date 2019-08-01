@@ -1,0 +1,46 @@
+div{
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.margin{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.padding{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.border{
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blueviolet;
+  border-top-color: blue;
+  border-radius: 100px;
+}
+
+.margin-shorthand-1{
+  /* 상하좌우 */
+  margin: 10px 20px;
+}
+
+.margin-shorthand-2{
+  /* 상하좌우 */
+  margin: 10px 20px;
+}
+
+.margin-shorthand-3{
+  /* 상하좌우 */
+  margin: 10px 20px;
+}
+
+.margin-shorthand-4{
+  /* 상하좌우 */
+  margin: 10px 20px;
+}
