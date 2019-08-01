@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subway 주문서</title>
+    <style>
+      
+      h1{ margin: 0 auto; text-align: left; }
+      form{ margin: 0 auto; width: 300px; height: 100%; border: 1px solid #ccc; padding: 10px; }
+      .info{ font-size: 14px; font-weight: normal; color: #333333; }
+      .index{ font-size: 16px; font-weight: bold; color: #333333; }
+    
+    </style>
+  </head>
+  <body>
+    
+
+    <form action="#">
+      <h1>FORM</h1>
+      <p class="info">주문서를 작성하여 주십시오</p>
+      이름 : <input type="text" placeholder="이름을 입력해주세요." name="jason-text"><br />
+      날짜 : <input type="date" value="2019-08-01" name="today" /><br /><br />
+
+      <p class="index">1. 샌드위치 선택</p>
+      <input type="radio" name="sandwich" value="1" checked="True" />에그마요<br />
+      <input type="radio" name="sandwich" value="2" />이탈리안 비엠티<br />
+      <input type="radio" name="sandwich" value="3" />터키 베이컨 아보카도<br />
+
+      <hr />
+      <p class="index">2. 사이즈 선택</p>
+      <input type="number" value="15">
+
+      <hr />
+      <p class="index">3. 빵</p>
+      <select name="bread" id="">
+          <option value="1">허니오트</option>
+          <option value="2" disabled>플랫브래드</option>
+          <option value="3" >이탈리안</option>
+        </select><br />
+
+        <hr />
+      <p class="index">4. 야채 / 소스</p>
+      <input type="checkbox" />토마토<br />
+      <input type="checkbox" />오이<br />
+      <input type="checkbox" />할라피뇨<br />
+      <input type="checkbox" />핫칠리<br />
+      <input type="checkbox" />바베큐<br />
+      <br />
+  
+      <button type="submit">submit</button>
+    </form>
+
+
+  </body>
+</html>
