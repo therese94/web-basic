@@ -1,0 +1,10 @@
+*{ margin: 0; padding: 0; }
+
+
+.parent{ position: relative; width: 500px; height: 500px; border: 1px solid black;}
+.box{ width: 100px; height: 100px; position: absolute;}
+.pink{ background-color: pink; top: 0; left: 0; }
+.blue{ background-color: blue; top: 100px; left: 100px; }
+.green{ background-color: green; top: 200px; left: 200px; }
+.red{ background-color: red; top: 400px; left: 400px; }
+.yellow{ position: fixed; background-color: yellow; bottom: 0; right: 0; }

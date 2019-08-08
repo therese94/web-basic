@@ -1,0 +1,29 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+.box{
+  width: 50px;
+  height: 50px;
+  color: darksalmon;
+  border: 1px solid;
+}
+
+.relative{
+  position: relative;
+  top: 50px; left: 50px;
+}
+
+/* .parent{
+  position: relative; top: 0; left: 0; border: 1px solid black; width: 100px; height: 100px;
+}
+
+
+.absolute{ position: absolute; top: 0; left: 0; background-color: darkseagreen; } */
+
+.ground{ width: 500px; height: 500px; border: solid; }
+
+.parent{ position: static; width: 50px; height: 50px; background-color: cyan; }
+
+.fixed{ position: fixed; bottom: 0; right: 0;}
+
+
+img{ float: right; }
+.floatP{ float: left;}

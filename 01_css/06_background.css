@@ -1,0 +1,21 @@
+body{
+  background-image: url(apeach.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  */
+} 
+
+*{
+  font-family: 'Beth Ellen', cursive;
+  font-size: 16px;
+}
+
+span{
+  font-size: 150%;
+  font-family : 'Courier New';
+  font-weight: bolder;
+  font: 'Courier New', 2rem, bold;
+  border: 1px solid #ededed;
+}
